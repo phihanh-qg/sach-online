@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hiệu Sách Online</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>📚 Hiệu Sách Online</h1>
+
+  <div class="filter-buttons">
+    <button onclick="filterBooks('all')">Tất cả</button>
+    <button onclick="filterBooks('lop10')">Lớp 10</button>
+    <button onclick="filterBooks('lop11')">Lớp 11</button>
+    <button onclick="filterBooks('lop12')">Lớp 12</button>
+  </div>
+
+  <div class="book-list">
+
+    <div class="book lop10">
+      <img src="img/toan-10.png" alt="Sách Lớp 10" />
+      <h2>Toán Lớp 10 HỌC MÃI</h2>
+      <p>Giá gốc 200k - và do lười học nên chỉ làm 1-2 trang.</p>
+      <p>Giá: <strong>50.000₫</strong></p>
+      <button onclick="addToCart('Toán Lớp 10 HỌC MÃI', 50000)">Thêm vào giỏ</button>
+    </div>
+<!--/////////////11/////////////-->
+<!--/////////////11/////////////-->
+<div class="book lop11">
+  <img src="img/hoa_cd_11.png" alt="Sách Lớp 11" />
+  <h2>Hoá chuyên đề 11 (kết nối tri thức)</h2>
+  <p>Mới 99%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>5.000₫</strong></p>
+  <button onclick="addToCart('Hoá chuyên đề 11 (kết nối tri thức)', 5000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/sinh_cd_11.png" alt="Sách Lớp 11" />
+  <h2>Sinh chuyên đề 11 (kết nối tri thức)</h2>
+  <p>Mới 99%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>5.000₫</strong></p>
+  <button onclick="addToCart('Sinh chuyên đề 11 (kết nối tri thức)', 5000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/ly_cd_11.png" alt="Sách Lớp 11" />
+  <h2>Lý chuyên đề 11 (kết nối tri thức)</h2>
+  <p>Mới 99%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>5.000₫</strong></p>
+  <button onclick="addToCart('Lý chuyên đề 11 (kết nối tri thức)', 5000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/van-11.png" alt="Sách Lớp 11" />
+  <h2>Văn 11 tập 1 (Cánh Diều)</h2>
+  <p>Mới 80%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>7.000₫</strong></p>
+  <button onclick="addToCart('Văn 11 tập 1 (Cánh Diều)', 7000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/van-11-2.png" alt="Sách Lớp 11" />
+  <h2>Văn 11 tập 2 (Cánh Diều)</h2>
+  <p>Mới 99%. <b> Còn 2 cuốn </b></p>
+  <p>Giá: <strong>8.000₫</strong></p>
+  <button onclick="addToCart('Văn 11 tập 2 (Cánh Diều)', 8000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/toan-cd-11.png" alt="Sách Lớp 11" />
+  <h2>Toán chuyên đề 11 (Kết nối tri thức)</h2>
+  <p>Mới 99%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>8.000₫</strong></p>
+  <button onclick="addToCart('Toán chuyên đề 11 (Kết nối tri thức)', 8000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/TA11.png" alt="Sách Lớp 11" />
+  <h2>Tiếng Anh 11 (global success)</h2>
+  <p>Mới 50%. <br> Đã giải gần hết <br> <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>25.000₫</strong></p>
+  <button onclick="addToCart('Tiếng Anh 11 (global success)', 25000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/TA-11.png" alt="Sách Lớp 11" />
+  <h2>Sách Bài Tập Tiếng Anh 11 (global success)</h2>
+  <p>Mới 80%. <br> Đã giải 1-2 trang<br> <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>30.000₫</strong></p>
+  <button onclick="addToCart('Sách Bài Tập Tiếng Anh 11 (global success)', 30000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/tin-11.png" alt="Sách Lớp 11" />
+  <h2>Tin 11 (Cánh diều)</h2>
+  <p>Mới 99%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>15.000₫</strong></p>
+  <button onclick="addToCart('Tin 11 (Cánh diều)', 15000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/sinh-11.png" alt="Sách Lớp 11" />
+  <h2>Sinh 11 (Kết nối tri thức)</h2>
+  <p>Mới 80%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>15.000₫</strong></p>
+  <button onclick="addToCart('Sinh 11 (Kết nối tri thức)', 15000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/toan-11-1.png" alt="Sách Lớp 11" />
+  <h2>Toán 11 tập 1(Kết nối tri thức)</h2>
+  <p>Mới 90%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>9.000₫</strong></p>
+  <button onclick="addToCart('Toán 11 tập 1(Kết nối tri thức)', 9000)">Thêm vào giỏ</button>
+</div>
+
+<div class="book lop11">
+  <img src="img/hoa-11.png" alt="Sách Lớp 11" />
+  <h2>Hoá 11(Kết nối tri thức)</h2>
+  <p>Mới 90%. <b> Còn 1 cuốn </b></p>
+  <p>Giá: <strong>9.000₫</strong></p>
+  <button onclick="addToCart('Hoá 11(Kết nối tri thức)', 9000)">Thêm vào giỏ</button>
+</div>
+
+<!--////////////12//////////////-->
+    <div class="book lop12">
+      <img src="img/gdqp-12.png" alt="Sách Lớp 12" />
+      <h2>Giáo dục quốc phòng Lớp 12 (cánh diều)</h2>
+      <b>Mới 99% còn 1 cuốn.</b>
+      <p>Giá: <strong>6.000₫</strong></p>
+      <button onclick="addToCart('Giáo dục quốc phòng Lớp 12 (cánh diều)', 6000)">Thêm vào giỏ</button>
+    </div>
+		
+   <div class="book lop12">
+      <img src="img/tin-tn.png" alt="Sách Lớp 12" />
+      <h2>Sách ôn thi tin tốt nghiệp</h2>
+      <b>Mới 50% còn 1 cuốn. <br> Sách tổng ôn lý thuyết cho bạn nào dự định ôn tốt nghiệp, và mình cũng đã giải 1 nữa cuốn đó, mình đánh giá sách khá hay. <br> Bạn nào muốn ôn Tin cũng có thể liên hệ mình nhé!</b>
+      <p>Giá: <strong>20.000₫</strong></p>
+      <button onclick="addToCart('Sách ôn thi tin tốt nghiệp', 20000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/toan-12-1A.png" alt="Sách Lớp 12" />
+      <h2>Toán 12 tập 1 (cánh diều)</h2>
+      <b>Mới 99% còn 1 cuốn.</b>
+      <p>Giá: <strong>10.000₫</strong></p>
+      <button onclick="addToCart('Toán 12 tập 1 (cánh diều)', 10000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/toan-12-1.png" alt="Sách Lớp 12" />
+      <h2>Toán 12 tập 2 (cánh diều)</h2>
+      <b>Mới 99% còn 1 cuốn.</b>
+      <p>Giá: <strong>10.000₫</strong></p>
+      <button onclick="addToCart('Toán 12 tập 2 (cánh diều)', 10000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/vl-12.png" alt="Sách Lớp 12" />
+      <h2>Vật Lý 12 (cánh diều)</h2>
+      <b>Mới 80% còn 1 cuốn.</b>
+      <p>Giá: <strong>8.000₫</strong></p>
+      <button onclick="addToCart('Vật Lý 12 (cánh diều)', 8000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/gdqp-12.png" alt="Sách Lớp 12" />
+      <h2>Giáo dục quốc phòng Lớp 12 (cánh diều)</h2>
+      <b>Mới 99% còn 1 cuốn.</b>
+      <p>Giá: <strong>6.000₫</strong></p>
+      <button onclick="addToCart('Giáo dục quốc phòng Lớp 12 (cánh diều)', 6000)">Thêm vào giỏ</button>
+    </div>
+		
+   <div class="book lop12">
+      <img src="img/sach-12.png" alt="Sách Lớp 12" />
+      <h2>Sách ôn thi Toán tốt nghiệp</h2>
+      <b>Mới 90% còn 1 cuốn. <br> Sách gồm bài tập và lý thuyết; Mình thấy hay, bài tập đa dạng, phù hợp cho mấy bạn xuất phát sớm. <br> Cuốn này mình được tặng nên làm 1-2 trang. Mình chủ yếu làm trên file pdf nên sách khá mới!</b>
+      <p>Giá: <strong>70.000₫</strong></p>
+      <button onclick="addToCart('Sách ôn thi Toán tốt nghiệp', 70000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/sinh-12.png" alt="Sách Lớp 12" />
+      <h2>Sinh 12 (Kết nối tri thức)</h2>
+      <b>Mới 90% còn 1 cuốn.</b>
+      <p>Giá: <strong>13.000₫</strong></p>
+      <button onclick="addToCart('Sinh 12 (Kết nối tri thức)', 13000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/ta-bt-12.png" alt="Sách Lớp 12" />
+      <h2>Sách bài tập Tiếng Anh 12 (global)</h2>
+      <b>Mới 90% còn 2 cuốn.</b>
+      <p>Giá: <strong>25.000₫</strong></p>
+      <button onclick="addToCart('Sách bài tập Tiếng Anh 12 (global)', 25000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/ta-12.png" alt="Sách Lớp 12" />
+      <h2>Sách Tiếng Anh 12 (global)</h2>
+      <b>Mới 50% còn 1 cuốn. <br> đã giải gần hết</b>
+      <p>Giá: <strong>25.000₫</strong></p>
+      <button onclick="addToCart('Sách bài tập Tiếng Anh 12 (global)', 25000)">Thêm vào giỏ</button>
+    </div>
+
+    <div class="book lop12">
+      <img src="img/de-12.png" alt="Sách Lớp 12" />
+      <h2>Đề minh hoạ tốt nghiệp Toán</h2>
+      <b>Mới 100% còn 1 cuốn. <br> Mình giải file pdf nên sách còn mới; đề hay - khó</b>
+      <p>Giá: <strong>75.000₫</strong></p>
+      <button onclick="addToCart('Đề minh hoạ tốt nghiệp Toán', 75000)">Thêm vào giỏ</button>
+    </div>
+  <!-- GIỎ HÀNG -->
+  <div class="cart-icon" onclick="toggleCart()">🛒 Giỏ hàng (<span id="cartCount">0</span>)</div>
+  <div class="cart-popup" id="cartPopup">
+    <h2>Giỏ hàng</h2>
+    <ul id="cartItems"></ul>
+    <p><strong>Tổng: </strong><span id="cartTotal">0₫</span></p>
+    <button onclick="openCheckout()">Thanh toán</button>
+    <button onclick="clearCart()">Xoá giỏ</button>
+  </div>
+
+  <!-- FORM THANH TOÁN -->
+  <div class="form-popup" id="checkoutForm">
+    <form id="orderForm" method="POST" action="https://formspree.io/f/mqabjrql">
+      <h2>Thông tin đặt hàng</h2>
+      <input type="hidden" name="cart" id="cartData">
+      <input type="text" name="facebook" placeholder="Link Facebook của bạn" required>
+      <button type="submit">Gửi đơn</button>
+      <button type="button" onclick="closeCheckout()">Huỷ</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
